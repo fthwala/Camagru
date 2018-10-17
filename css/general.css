@@ -1,0 +1,78 @@
+#header
+{
+	 font-family: 'Anton', serif;
+}
+
+#text
+{
+  font-family: 'Montserrat', serif;
+}
+
+#logo 
+{
+	background-color: #ABEBC6;
+
+  /* The spacing inside the div */
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+
+  /* The spacing outside the div */
+  margin-top: 4%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 0%;
+}
+
+#body
+{
+  font-family: 'Montserrat', serif;
+
+  /* The spacing inside the div */
+  margin-top: 0%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 3%;
+
+  /* The spacing outside the div */
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+
+  background-color: #CCD1D1;
+}
+
+/* The entire nav bar */
+.nav {
+  background-color: #595959;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  padding: 2% 0 2% 0;
+
+  /* Shape the div */
+    margin-top: 0%;
+  margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 0%;
+}
+
+/* List inside the nav bar */
+.nav > li {
+  display: inline-block;
+  padding: 0 2% 0 2%;
+  font-family: 'Montserrat', serif;
+}
+
+/* The links inside the nav bar */
+.nav > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* The nav-bar hover color */
+.nav > li > a:hover {
+  color: #c1c1c1;
+}

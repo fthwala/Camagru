@@ -1,0 +1,181 @@
+#header { font-family: 'Anton', serif; }
+
+#img_upload {
+    position: relative;
+    z-index: 0;
+}
+
+canvas { display: none; }
+
+label input[type="radio"] {
+    display: none;
+}
+
+label input[type="radio"] + img{
+    border-radius: 10px;
+    cursor:pointer;
+    border:2px solid transparent;
+}
+
+label input[type="radio"]:checked + img {
+    border:2px solid #33adff;
+}
+
+video {
+    position: relative;
+    z-index: 0;
+}
+
+#superimg {
+    position: absolute;
+    z-index: 5;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.canvas_preview {
+    margin: 10px 10px 20px 10px;
+    width:  95%;
+    height: 480px;
+    background-color: #ccc;
+    border :10px solid #ddd;
+    border-radius: 10px;
+}
+
+#logo_main 
+{
+	background-color: #ABEBC6;
+
+	/* The spacing inside the div */
+	padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1.2%;
+
+  /* The spacing outside the div */
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+}
+
+#body_main
+{
+	font-family: 'Montserrat', serif;
+
+	/* The spacing inside the div */
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+
+  /* The spacing outside the div */
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+
+  background-color: #CCD1D1;
+}
+
+#preview { background-color: #CCD1D1; }
+
+#stickers { background-color: #CCD1D1; }
+
+/*
+** The Nav-bar starts here
+*/
+
+/* The entire nav bar */
+.nav_main {
+	background-color: #595959;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 2% 0 2% 0; /* inside the div */
+
+	/* Shape the div */
+  margin-top: 0%;
+ 	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+}
+
+/* List inside the nav bar */
+.nav_main > li {
+	display: inline-block;
+	padding: 0 2% 0 2%;
+	font-family: 'Montserrat', serif;
+}
+
+/* The links inside the nav bar */
+.nav_main > li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* The nav-bar hover color */
+.nav_main > li > a:hover {
+	color: #c1c1c1;
+}
+
+/*
+** The Nav-bar ends here
+*/
+
+
+/*
+** The body-grid starts here
+*/
+
+#text { font-family: 'Montserrat', serif; }
+
+.image-icons
+{
+  height: 100px;
+  width: 100px;
+}
+
+div.scroll
+{
+  width: 100%;
+  height: 700px; 
+  overflow: scroll;
+}
+
+.header { grid-area: header;}
+.icons { grid-area: menu;}
+.main { grid-area: main;}
+.preview { grid-area: right_side;}
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 1fr;
+  grid-template-areas:
+    'header header header'
+    'menu main right_side'
+    'footer footer footer';
+  grid-gap: 1px;
+  background-color: black;
+  padding: 1px;
+}
+.grid-container > div {
+  background-color: #CCD1D1;
+  text-align: center;
+  padding: 0% 0% 0% 0%; /* inside the div */
+  font-size: 20px;
+}
+
+/*
+** The body-grid ends here
+*/
+
+.stickers {
+	list-style: none;
+	text-align: center;
+	padding: 2% 2% 2% 2%; /* inside the div */
+}
+

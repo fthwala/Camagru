@@ -1,0 +1,109 @@
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#video-container {
+    margin: 2em auto 0;
+    width: 500px;
+    padding: 2em;
+    background: white;
+    -webkit-box-shadow: 0 1px 10px #D9D9D9;
+    -moz-box-shadow: 0 1px 10px #D9D9D9;
+    -ms-box-shadow: 0 1px 10px #D9D9D9;
+    -o-box-shadow: 0 1px 10px #D9D9D9;
+    box-shadow: 0 1px 10px #D9D9D9;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+textarea
+{
+  padding: 0px 0px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+#cbutton {
+    /*background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;*/
+    
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Extra styles for the register button */
+.registerbtn {
+    padding: 14px 20px;
+    background-color: #F6B53F;
+}
+
+/* Extra styles for the signup button */
+.signupbtn {
+    padding: 14px 20px;
+    background-color: #4CAF50;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn,.registerbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding-top: 2%;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.form_inside {
+    padding-top: 10%;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 16%;
+}
+
+/*#sign_inreg .form_inside .clearfix .signupbtn
+{
+    float: right;
+}*/
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn, .registerbtn 
+    {
+       width: 100%;
+    }
+}
